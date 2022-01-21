@@ -1,0 +1,135 @@
+
+textarea{
+ FONT-SIZE: 10pt; COLOR: #22425F; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+
+
+A.Right_Menu {
+	 FONT-WEIGHT: bold;FONT-SIZE: 11pt; COLOR: #ffffff; FONT-FAMILY: 'Arial'; TEXT-DECORATION: none
+}
+A.Right_Menu:hover {
+	 FONT-WEIGHT: bold;FONT-SIZE: 11pt; COLOR: #000000; FONT-FAMILY: 'Arial'; TEXT-DECORATION: underline
+}
+
+A.Mar_News {
+	 FONT-WEIGHT: bold;FONT-SIZE: 11pt; COLOR: #ffffff; FONT-FAMILY: 'Arial'; TEXT-DECORATION: none
+}
+A.Mar_News:hover {
+	 FONT-WEIGHT: bold;FONT-SIZE: 11pt; COLOR: #f7c413; FONT-FAMILY: 'Arial'; TEXT-DECORATION: underline
+}
+
+
+A.Lang {
+	 FONT-WEIGHT: bold;FONT-SIZE: 11pt; COLOR: #f6c314; FONT-FAMILY: 'Arial'; TEXT-DECORATION: none
+}
+A.Lang:hover {
+	 FONT-WEIGHT: bold;FONT-SIZE: 11pt; COLOR: #ffffff; FONT-FAMILY: 'Arial'; TEXT-DECORATION: underline
+}
+
+A.Lange {
+	 FONT-WEIGHT: bold;FONT-SIZE: 9pt; COLOR: #f6c314; FONT-FAMILY: 'tahoma'; TEXT-DECORATION: none
+}
+A.Lange:hover {
+	 FONT-WEIGHT: bold;FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: 'tahoma'; TEXT-DECORATION: underline
+}
+
+
+TD.Title_Details 
+{
+	 FONT-WEIGHT: bold;FONT-SIZE: 12pt; COLOR: #7B0B00; FONT-FAMILY: 'Arial'; TEXT-DECORATION: none	
+}
+
+
+A.Flash_News {
+	 FONT-WEIGHT: bold;FONT-SIZE: 12pt; COLOR: #7B0B00; FONT-FAMILY: 'arial'; TEXT-DECORATION: none
+}
+A.Flash_News:hover {
+	 FONT-WEIGHT: bold;FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY: 'arial'; TEXT-DECORATION: underline
+}
+
+
+A.footer {
+	 FONT-SIZE: 10pt; COLOR: #484848; FONT-FAMILY: 'Arial'; TEXT-DECORATION: none
+}
+A.footer:hover {
+	 FONT-SIZE: 10pt; COLOR: #9E120E; FONT-FAMILY: 'Arial'; TEXT-DECORATION: underline
+}
+
+TD 
+{
+	 FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #000000; FONT-FAMILY: 'Times New Roman'; TEXT-DECORATION: none	
+}
+
+TD.Red_Title
+{
+	 FONT-WEIGHT: bold;FONT-SIZE: 12pt; COLOR: #7B0B00; FONT-FAMILY: 'Arial'; TEXT-DECORATION: none	
+}
+
+TD.right
+{
+	 BACKGROUND-IMAGE: url(body-top-gradient.gif); BACKGROUND-COLOR: #bac6d7; BACKGROUND-REPEAT: repeat-x	
+}
+
+A.reports {
+	 FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #000000; FONT-FAMILY: 'arial'; TEXT-DECORATION: none
+}
+A.reports:hover {
+	 FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #7B0B00; FONT-FAMILY: 'arial'; TEXT-DECORATION: underline
+}
+
+A.title {
+	 FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #eeeeee; FONT-FAMILY: 'Arial'; TEXT-DECORATION: none
+}
+
+A.main1 {
+	 FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: 'Arial'; TEXT-DECORATION: none
+}
+A.main1:hover {
+	 FONT-SIZE: 10pt; COLOR: #fff000; FONT-FAMILY: 'Arial'; TEXT-DECORATION: underline
+}
+
+
+
+#menu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #7B0B00; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 200px; PADDING-TOP: 0px; BORDER-BOTTOM: #eeeeee 1px solid; LIST-STYLE-TYPE: none; TEXT-ALIGN: right
+}
+#menu UL LI {
+	DIRECTION: ltr; POSITION: relative
+}
+#menu LI UL {
+	DISPLAY: block; LEFT: 201px; POSITION: absolute; TOP: 0px
+}
+#menu LI:hover UL {
+	DISPLAY: block
+}
+#menu LI:hover > UL {
+	VISIBILITY: visible
+}
+#menu UL UL {
+	VISIBILITY: hidden
+}
+* HTML #menu UL LI {
+	FLOAT: right; HEIGHT: 1%
+}
+* HTML #menu UL LI A {
+	HEIGHT: 1%
+}
+#menu UL {
+	MARGIN: 0px
+}
+LI {
+	MARGIN: 0px
+}
+#menu UL A {
+	BORDER-RIGHT: #7B0B00 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: #eeeeee 0px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 3px; BORDER-LEFT: #eeeeee 0px solid; COLOR: #ffffff; PADDING-TOP: 4px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #7B0B00; TEXT-DECORATION: none; FONT-WEIGHT: bold; FONT-SIZE: 12pt;
+}
+#menu UL A:hover {
+	BACKGROUND: #C54437; COLOR: #000000
+}
+
+#menu UL A.submenu {
+	BACKGROUND: url(r_arrow.gif) #7B0B00 no-repeat left 50%
+}
+#menu UL A.submenu:hover {
+	BACKGROUND: url(r_arrow.gif) #7B0B00 no-repeat left 50%
+}

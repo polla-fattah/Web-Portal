@@ -1,0 +1,146 @@
+BODY {
+
+
+	}
+
+input.button
+
+{
+FONT-WEIGHT: bold; FONT-SIZE: 9pt; WIDTH: 60px; COLOR: #fff; BACKGROUND-COLOR: #ca0002;
+}
+
+
+
+input{
+ FONT-SIZE: 9pt; COLOR: #22425F; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+
+
+select{
+ FONT-SIZE: 9pt; COLOR: #22425F; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+
+TD
+{
+	 FONT-SIZE: 9pt; COLOR: #212121; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: none	
+}
+
+
+
+span
+{
+	 FONT-SIZE: 9pt; COLOR: #cccccc; FONT-FAMILY: verdana; TEXT-DECORATION: none	
+}
+
+TD.search 
+{
+	 FONT-SIZE: 10pt; COLOR: #ca0002; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: none	
+}
+
+TD.label
+{
+	FONT-SIZE: 11pt; COLOR: #000000; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: none	
+}
+
+A.lang {
+	FONT-SIZE: 10pt; COLOR: #313131; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: none
+}
+A.lang:hover {
+	FONT-SIZE: 10pt; COLOR: #00aeef; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: underline
+}
+
+A.news{
+	FONT-SIZE: 9pt; COLOR: #00aeef; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: none
+}
+A.news:hover {
+	 FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: underline
+}
+
+A.details{
+	FONT-SIZE: 9pt; COLOR: #f37636; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: none
+}
+A.details:hover {
+	 FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: underline
+}
+
+A.main {
+	 FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY:  "verdana", verdana; TEXT-DECORATION: none
+}
+A.main:hover {
+	 FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: underline
+}
+
+
+A.blue_link {
+	 FONT-WEIGHT: bold;FONT-SIZE: 10pt; COLOR: #2963b5; FONT-FAMILY:  "verdana", verdana; TEXT-DECORATION: none
+}
+A.blue_link:hover {
+	 FONT-WEIGHT: bold;FONT-SIZE: 10pt; COLOR: #c4c029; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: none
+}
+
+
+A.footer {
+	 FONT-SIZE: 9pt; COLOR: #414141; FONT-FAMILY:  "verdana", verdana; TEXT-DECORATION: none
+}
+A.footer:hover {
+	 FONT-SIZE: 9pt; COLOR: #f37939; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: underline
+}
+
+
+A.topsearch {
+	 FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY:  "verdana", verdana; TEXT-DECORATION: none
+}
+A.topsearch:hover {
+	 FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: "verdana", verdana; TEXT-DECORATION: underline
+}
+
+
+img.rep 
+{
+	 border: 1px solid #A7A7A7;
+}
+
+
+
+#menu UL {
+	 BACKGROUND: #00aeef;  WIDTH: 200px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px;   LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+#menu UL LI {
+	DIRECTION: ltr; POSITION: relative
+}
+#menu LI UL {
+	DISPLAY: block; LEFT: 201px; POSITION: absolute; TOP: 0px
+}
+#menu LI:hover UL {
+	DISPLAY: block
+	}
+#menu LI:hover > UL {
+	VISIBILITY: visible
+}
+#menu UL UL {
+	VISIBILITY: hidden}
+* HTML #menu UL LI {
+	FLOAT: right; HEIGHT: 1%
+}
+* HTML #menu UL LI A {
+	HEIGHT: 1%
+}
+#menu UL {
+	MARGIN: 0px
+}
+LI {
+	MARGIN: 0px
+}
+#menu UL A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 3px; COLOR: #ffffff; PADDING-TOP: 4px; BORDER-BOTTOM: #53c2ec 1px solid; BACKGROUND-COLOR: #00aeef; TEXT-DECORATION: none;  FONT-SIZE: 10pt;
+}
+#menu UL A:hover {
+	BACKGROUND: #128ebd; COLOR: #000000
+}
+
+#menu UL A.submenu {
+	BACKGROUND: url(r_arrow.gif) #7B0B00 no-repeat left 50%
+}
+#menu UL A.submenu:hover {
+	BACKGROUND: url(r_arrow.gif) #7B0B00 no-repeat left 50%
+}
